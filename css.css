@@ -1,17 +1,35 @@
-.fixed { 
-    background-image: url('applejax05.github.io/images.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+body {
+	background-color: rgb(74, 74, 221);
 }
 
-h {
-  text-align: center;
-  position: relative;
-  color: white;
-  font-size: 450%;
+button {
+	height:200px;
+	width:35%;
+	background-color:black;
+	font-size:200%; 
+	color:white;
+	font-family:'Times New Roman', Times, serif;
+	float:left;
 }
 h2 {
+	font-size: 70%;
+}
+h3 {
+	float:left;
 	color:white;
-	font-family: helvetica
+	font-size: 150%;
+	font-family:'Courier New', Courier, monospace;
+	
+
+
+}
+h1 {
+	float:left;
+	color:white;
+	font-family:'Courier New', Courier, monospace;
+	
 }
 
+span{
+	display:inline;
+}
